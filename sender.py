@@ -2,7 +2,7 @@ import smtplib
 import getpass
 
 def send_email(to, subject, message):
-    user = "ankkumar@student.42newdelhi.com"
+    user = "your_email_address"
     password = getpass.getpass("Input password: ")
     
     sent_from = user
