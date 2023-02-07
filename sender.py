@@ -3,6 +3,7 @@ import getpass
 
 def send_email(to, subject, message):
     user = "your_email_address"
+    metamask_address = "0x1A432BFa8F8FaCe619474d120445aCa30dC5e07f"
     password = getpass.getpass("Input password: ")
     
     sent_from = user
